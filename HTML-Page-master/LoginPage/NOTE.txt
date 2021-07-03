@@ -1,0 +1,2 @@
+overflow: scroll;  to make the text inside div with scroll bar.
+float: left;  to make div in same line , if the div become in same div we can use clean:both.
