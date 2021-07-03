@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="full-img" id="fullImgBox">
+        <img src="https://images.pexels.com/photos/4310445/pexels-photo-4310445.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="images" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="img-gallery">
+        <img id="img1" src="https://images.pexels.com/photos/4310445/pexels-photo-4310445.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+        <img src="https://images.pexels.com/photos/6954756/pexels-photo-6954756.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+        <img src="https://images.pexels.com/photos/878668/pexels-photo-878668.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+        <img src="https://images.pexels.com/photos/258421/pexels-photo-258421.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+        <img src="https://images.pexels.com/photos/4009595/pexels-photo-4009595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+        <img src="https://images.pexels.com/photos/1697912/pexels-photo-1697912.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+        <img src="https://images.pexels.com/photos/3746197/pexels-photo-3746197.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+        <img src="https://images.pexels.com/photos/2106037/pexels-photo-2106037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+        <img src="https://images.pexels.com/photos/1390433/pexels-photo-1390433.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+        <img src="https://images.pexels.com/photos/4622976/pexels-photo-4622976.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+        <img src="https://images.pexels.com/photos/3014941/pexels-photo-3014941.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+        <img src="https://images.pexels.com/photos/378006/pexels-photo-378006.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image" onclick="openFullImg(this.src)" >
+
+    </div>
+
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+
+        function openFullImg(pic){
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+
+        function closeFullImg(){
+            fullImgBox.style.display = "none";
+        }
+
+        function onHover(){
+            $('#img1').fadeIn(600);
+        }
+    </script>
+</body>
+</html>
