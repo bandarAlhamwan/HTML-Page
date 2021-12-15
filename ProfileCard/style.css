@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    /* make profile-box in center */
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.profile-box{
+    background-color: #316d75;
+    text-align: center;
+    padding: 50px 90px;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+
+.menu-icon{
+     width: 25px;
+     position: absolute;
+     left: 40px;
+     top: 40px;
+}
+
+.setting-icon{
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.rofile-pic{
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 6px;
+    margin-top: 40px;
+}
+
+.profile-bottom{
+    background: #fff;
+    color: #999;
+    padding: 60px 0;
+    margin-left: -90px;
+    margin-right: -90px;
+    margin-bottom: -50px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+.profile-bottom i{
+    width: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.profile-box button{
+    background: #fff;
+    color: #ff574a;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.profile-box h3{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.social-media i{
+    width: 20px;
+    margin: 30px 15px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+
+@media only screen and (max-width: 415px)  {
+   
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/796832.jpg);
+        background-size: cover;
+        background-position: center;
+        /* make profile-box in center */
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    
+    .profile-box{
+        width: 80%;
+        background-color: #316d75;
+        text-align: center;
+        padding: 20px 40px;
+        color: #fff;
+        position: relative;
+        border-radius: 20px;
+    }
+    
+    .menu-icon{
+         width: 20px;
+         position: absolute;
+         left: 20px;
+         top: 20px;
+    }
+    
+    .setting-icon{
+        width: 25px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    
+    .rofile-pic{
+        width: 100px;
+        border-radius: 50%;
+        background-color: #fff;
+        padding: 6px;
+        margin-top: 20px;
+    }
+    
+    .profile-bottom{
+        background: #fff;
+        color: #999;
+        padding: 30px 0;
+        margin-left: -40px;
+        margin-right: -40px;
+        margin-bottom: -20px;
+        border-radius: 20px;
+        margin-top: -5px;
+    }
+    
+    .profile-bottom img{
+        width: 15px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    
+    .profile-box button{
+        background: #fff;
+        color: #ff574a;
+        border: none;
+        outline: none;
+        box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+        padding: 15px 60px;
+        cursor: pointer;
+        border-radius: 30px;
+        margin-bottom: -30px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .profile-box p{
+        margin-top: 15px;
+    }
+    
+    .profile-box h3{
+        font-size: 22px;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+
+    .profile-box p{
+        font-size: 10px;
+        margin-top: -1px;
+    }
+
+    .profile-box .learn{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .social-media i{
+        width: 20px;
+        margin: 15px 8px;
+        cursor: pointer;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: cursive;
+    }
+}
