@@ -97,6 +97,10 @@ a{
     font-family: cursive;
 }
 
+.RB{
+    text-decoration: underline;
+}
+
 
 @media only screen and (max-width: 415px)  {
    
@@ -205,5 +209,9 @@ a{
         text-decoration: none;
         color: white;
         font-family: cursive;
+    }
+
+    .RB{
+        text-decoration: underline;
     }
 }
